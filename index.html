@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Amazon Product Cards</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+body{
+background:#f3f3f3;
+padding:25px;
+}
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+gap:20px;
+}
+.card{
+background:#fff;
+border-radius:12px;
+padding:14px;
+box-shadow:0 4px 10px rgba(0,0,0,.15);
+transition:.3s;
+}
+.card:hover{
+transform:translateY(-5px);
+}
+.card img{
+width:100%;
+height:170px;
+object-fit:cover;
+border-radius:8px;
+}
+h3{
+font-size:17px;
+margin:10px 0 6px;
+}
+.desc{
+font-size:13px;
+color:#555;
+line-height:1.5;
+height:42px;
+}
+.price{
+margin:12px 0;
+}
+.new{
+font-size:22px;
+font-weight:bold;
+color:#B12704;
+background-color: #777;
+border-radius: 8px;
+}
+.old{
+margin-left:8px;
+color:#777;
+text-decoration:line-through;
+}
+button{
+width:100%;
+padding:10px;
+background:#FFD814;
+border:none;
+border-radius:25px;
+font-weight:bold;
+cursor:pointer;
+}
+button:hover{
+background:#F7CA00;
+}
+img{
+    opacity: 0.5;
+}
+</style>
+</head>
+
+<body>
+
+<div class="products">
+
+<div class="card">
+<img src="images (1).jpg">
+<h3>Apple AirPods Pro</h3>
+<p class="desc">Active Noise Cancellation with immersive sound. Up to 30 hours battery backup.</p>
+<div class="price"><span class="new">₹18,999</span><span class="old">₹24,900</span></div>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="images.jpg">
+<h3>Samsung Galaxy Watch 6</h3>
+<p class="desc">AMOLED display with heart rate and fitness tracking. Premium smartwatch experience.</p>
+<div class="price"><span class="new">₹21,999</span><span class="old">₹29,999</span></div>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="images (2).jpg">
+<h3>Sony WH-1000XM5</h3>
+<p class="desc">Industry-leading noise cancellation with crystal clear audio quality.</p>
+<div class="price"><span class="new">₹27,990</span><span class="old">₹34,990</span></div>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="images (3).jpg">
+<h3>Logitech MX Master 3S</h3>
+<p class="desc">Ultra-quiet clicks with precision scrolling for productivity.</p>
+<div class="price"><span class="new">₹8,499</span><span class="old">₹10,995</span></div>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="images (4).jpg">
+<h3>JBL Flip 6</h3>
+<p class="desc">Powerful bass speaker with waterproof design and 12-hour battery.</p>
+<div class="price"><span class="new">₹7,999</span><span class="old">₹10,999</span></div>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="images (5).jpg">
+<h3>SanDisk SSD 1TB</h3>
+<p class="desc">High-speed portable storage with durable USB-C connectivity.</p>
+<div class="price"><span class="new">₹8,999</span><span class="old">₹12,499</span></div>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="images (6).jpg">
+<h3>Apple Magic Keyboard</h3>
+<p class="desc">Wireless keyboard with rechargeable battery and smooth typing.</p>
+<div class="price"><span class="new">₹9,499</span><span class="old">₹11,900</span></div>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="images (7).jpg">
+<h3>Anker Power Bank</h3>
+<p class="desc">20,000mAh fast charging with dual USB output for travel.</p>
+<div class="price"><span class="new">₹3,499</span><span class="old">₹4,999</span></div>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="images (8).jpg">
+<h3>Dell 24 Inch Monitor</h3>
+<p class="desc">Full HD IPS display with vibrant colors for work and gaming.</p>
+<div class="price"><span class="new">₹11,999</span><span class="old">₹15,499</span></div>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="images (9).jpg">
+<h3>Canon EOS 200D</h3>
+<p class="desc">24.1MP DSLR camera with stunning photo and video quality.</p>
+<div class="price"><span class="new">₹44,999</span><span class="old">₹52,999</span></div>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="images (10).jpg">
+<h3>Mi Smart Band 9</h3>
+<p class="desc">AMOLED fitness tracker with sleep and workout monitoring.</p>
+<div class="price"><span class="new">₹3,199</span><span class="old">₹4,299</span></div>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="images (11).jpg">
+<h3>TP-Link WiFi 6 Router</h3>
+<p class="desc">High-speed wireless router with stable home connectivity.</p>
+<div class="price"><span class="new">₹5,499</span><span class="old">₹7,299</span></div>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="images (12).jpg">
+<h3>Apple iPad 10th Gen</h3>
+<p class="desc">Powerful A14 chip with Retina display for study and creativity.</p>
+<div class="price"><span class="new">₹32,999</span><span class="old">₹39,900</span></div>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="images (13).jpg">
+<h3>HP 15 Laptop</h3>
+<p class="desc">Intel Core i5, 16GB RAM and SSD for everyday performance.</p>
+<div class="price"><span class="new">₹49,999</span><span class="old">₹58,999</span></div>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="images (14).jpg">
+<h3>Kindle Paperwhite</h3>
+<p class="desc">Glare-free display with adjustable warm light for reading.</p>
+<div class="price"><span class="new">₹12,999</span><span class="old">₹16,499</span></div>
+<button>Add to Cart</button>
+</div>
+
+</div>
+
+</body>
+</html>
